@@ -1,0 +1,260 @@
+
+
+
+
+h5{
+    position: relative;
+    font-size: 18px;
+    color: #1E90FF;
+    
+    text-transform: uppercase;
+    user-select: none;
+
+
+ }
+
+
+.content img{
+    position: relative;
+    top: -70px;
+    width: auto;
+    height: 250px;
+    margin: auto;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+.btn-3d {
+  position: absolute;
+  bottom: 5px;
+  left: 65px;
+  display: inline-block;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 8px;
+  background-color: #1E90FF;
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+  text-transform: uppercase;
+  transition: transform 0.3s, box-shadow 0.3s;
+  cursor: pointer;
+  user-select: none;
+}
+
+.btn-3d:before {
+  content: "";
+  position: absolute;
+  top: 4px;
+  left: 4px;
+  width: calc(100% - 8px);
+  height: calc(100% - 8px);
+  background-color: rgba(0, 0, 0, 0.2);
+  border-radius: inherit;
+  z-index: -1;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.btn-3d:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.btn-3d:hover:before {
+  transform: translateY(3px);
+  box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.3);
+}
+
+
+
+
+
+
+
+
+
+
+.cards{
+    top: 0;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 0 ;
+    flex-wrap: wrap;
+    padding: 0;
+    margin-top: 100px;
+    
+    
+}
+
+
+.card1{
+    position: relative;
+    width: 250px;
+    height: 300px;
+    background-position: center;
+    background-size: cover;
+    margin: 0 auto;
+    background-image: url(img/aile.jpg);
+    border-radius: 10px;
+    margin-top: 10px;
+    object-fit: cover;
+    transition: 0.7s ease;
+    border: 10px solid rgba(0, 0, 0, 0.527);
+    
+    
+    
+}
+
+
+
+.clc{
+    position: relative;
+    font-size: 1rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #fff;
+    font-weight: bolder;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    padding: 0 2px;
+    
+}
+
+
+
+
+.card2{
+    
+    position: relative;
+    width: 250px;
+    height: 300px;
+    background-position: center;
+    background-size: cover;
+    margin: 0 auto;
+    background-image: url(img/aziz.jpg);
+    border-radius: 10px;
+    margin-top: 10px;
+    object-fit: cover;
+    transition: 0.7s ease;
+    border: 10px solid rgba(0, 0, 0, 0.527);
+    
+   
+   
+}
+
+.card3{
+    position: relative;
+    width: 250px;
+    height: 300px;
+    background-position: center;
+    background-size: cover;
+    margin: 0 auto;
+    background-image: url(img/dou.jpg);
+    border-radius: 10px;
+    margin-top: 10px;
+    object-fit: cover;
+    transition: 0.7s ease;
+    border: 10px solid rgba(0, 0, 0, 0.527);
+    
+}
+
+.card4{
+    position: relative;
+    width: 250px;
+    height: 300px;
+    background-position: center;
+    background-size: cover;
+    margin: 0 auto;
+    background-image: url(img/hayat.jpg);
+    border-radius: 10px;
+    margin-top: 10px;
+    object-fit: cover;
+    transition: 0.7s ease;
+    border: 10px solid rgba(0, 0, 0, 0.527);
+    
+}
+
+
+.card5{
+    position: relative;
+    width: 250px;
+    height: 300px;
+    background-position: center;
+    background-size: cover;
+    margin: 0 auto;
+    background-image: url(img/hayat.jpg);
+    border-radius: 10px;
+    margin-top: 10px;
+    object-fit: cover;
+    transition: 0.7s ease;
+    border: 10px solid rgba(0, 0, 0, 0.527);
+    
+}
+
+
+
+.card6{
+    position: relative;
+    width: 250px;
+    height: 300px;
+    background-position: center;
+    background-size: cover;
+    margin: 0 auto;
+    background-image: url(img/eli.jpg);
+    border-radius: 10px;
+    margin-top: 10px;
+    object-fit: cover;
+    transition: 0.7s ease;
+    border: 10px solid rgba(0, 0, 0, 0.527);
+    
+}
+
+.card7{
+    position: relative;
+    width: 250px;
+    height: 300px;
+    background-position: center;
+    background-size: cover;
+    margin: 0 auto;
+    background-image: url(img/yar.jpg);
+    border-radius: 10px;
+    margin-top: 10px;
+    object-fit: cover;
+    transition: 0.7s ease;
+    border: 10px solid rgba(0, 0, 0, 0.527);
+    
+}
+.card8{
+    position: relative;
+    width: 250px;
+    height: 300px;
+    background-position: center;
+    background-size: cover;
+    margin: 0 auto;
+    background-image: url(img/mar.jpg);
+    border-radius: 10px;
+    margin-top: 10px;
+    object-fit: cover;
+    transition: 0.7s ease;
+    border: 10px solid rgba(0, 0, 0, 0.527);
+    
+}
+
+
+
+
+
